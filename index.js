@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 const SECRET_KEY = 'your-secret-key';
 
-// Замените эту функцию на реальную аутентификацию пользователя
+
 function authenticateUser(username, password) {
   return username === 'user' && password === 'password';
 }
